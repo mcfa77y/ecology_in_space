@@ -1,0 +1,75 @@
+{
+    "species": [
+        {
+            "name": "artic wolf",
+            "points": 1,
+            "class": "C2-C4",
+            "biomes": [
+                "TUN"
+            ],
+            "eats": [
+                "lemming",
+                "jegar",
+                "owl"
+            ],
+            "eatenBy": [
+                "polar bear"
+            ]
+        },
+        {
+            "name": "deer",
+            "points": 0.5,
+            "class": "C1",
+            "biomes": [
+                "CON",
+                "TEM"
+            ],
+            "eats": [
+                "pine tree",
+                "apple tree",
+                "blueberries"
+            ],
+            "eatenBy": [
+                "black bear",
+                "lynx"
+            ]
+        }
+    ],
+    "factors": {
+        "aboitic": [
+            {
+                "description": "change in oxygen",
+                "effect": "draw 4 cards"
+            }
+        ],
+        "biotic": [
+            {
+                "description": "predation",
+                "effect": "destroy any non producer organism"
+            }
+        ]
+    },
+    "biomes": [
+        {
+            "name": "Tundra",
+            "abbreviation": "TUN",
+            "description": "permafrost habitats",
+            "bonus": "card purchases are cheaper by 2",
+            "color": "white"
+        },
+        {
+            "name": "Coniferous forest",
+            "abbreviation": "CON",
+            "description": "cold weather forest habitats",
+            "bonus": "+4 victory points",
+            "color": "aquamarine"
+        },
+        {
+            "name": "Temperate forest",
+            "abbreviation": "TEM",
+            "description": "cold weather forest habitats",
+            "bonus": "+4 victory points",
+            "color": "darkgreen"
+        }
+    ]
+}
